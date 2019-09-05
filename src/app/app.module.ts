@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { UserDialogComponent } from './user-dialog/user-dialog.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatDialogModule,
     MatButtonModule,
     MatFormFieldModule,
+    MatInputModule,
     BrowserAnimationsModule,
     StoreModule.forRoot(reducers, {
       metaReducers,
