@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Json-server
 npm install -g json-server
 
-Run json-server --watch ./stub/data.json
+Run `json-server --watch ./stub/data.json`
 
 
 ## Development server
